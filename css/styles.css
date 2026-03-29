@@ -1,24 +1,48 @@
+/* Base styles */
 body {
   font-family: Arial, sans-serif;
   margin: 0;
   line-height: 1.6;
 }
 
+/* Header */
 header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px;
   background: #222;
   color: white;
-  padding: 20px;
-  text-align: center;
+}
+
+header h1 {
+  margin: 0;
+  font-size: 2rem;
 }
 
 nav a {
   color: white;
-  margin: 0 10px;
+  margin-right: 15px;
   text-decoration: none;
+  font-weight: 500;
 }
 
+nav a:hover {
+  color: #0073e6;
+}
+
+/* Header profile image */
+header img {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  object-fit: cover;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.3);
+}
+
+/* Sections */
 section {
-  padding: 40px;
+  padding: 40px 20px;
   max-width: 800px;
   margin: auto;
 }
@@ -26,4 +50,24 @@ section {
 h2 {
   border-bottom: 2px solid #ddd;
   padding-bottom: 10px;
+}
+
+/* Lists */
+ul {
+  list-style: disc inside;
+}
+
+/* Responsive */
+@media (max-width: 600px) {
+  header {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+  nav {
+    margin-top: 10px;
+  }
+  header img {
+    margin-top: 15px;
+  }
 }
