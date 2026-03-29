@@ -25,27 +25,27 @@ section {
 
 /* Footer Styling */
 #footer {
-  background-color: #222; /* Dark background */
-  color: white;           /* White text color */
-  text-align: center;     /* Center align text */
-  padding: 20px;          /* Padding for spacing */
-  font-size: 0.85rem;     /* Slightly smaller font size */
-  position: relative;     /* Ensure footer stays at the bottom */
+  background-color: #222;  /* Dark background */
+  color: white;            /* White text */
+  text-align: center;      /* Center align text */
+  padding: 20px;           /* Padding for spacing */
+  font-size: 0.85rem;      /* Slightly smaller font size */
+  width: 100%;             /* Ensure full width */
+  margin-top: 40px;        /* Space between content and footer */
+  position: relative;      /* Optional: use this if you want the footer at the bottom */
   bottom: 0;
-  width: 100%;
-  margin-top: 40px;       /* Space between the last section and footer */
 }
 
 #footer p {
-  margin: 5px 0;          /* Small margin between paragraphs */
+  margin: 5px 0;           /* Small margin between paragraphs */
 }
 
 #footer a {
-  color: #00aced;         /* Blue link color */
-  text-decoration: none;  /* Remove underline */
-  margin: 0 10px;         /* Horizontal spacing between links */
+  color: #00aced;          /* Blue link color */
+  text-decoration: none;   /* Remove underline */
+  margin: 0 10px;          /* Horizontal spacing between links */
 }
 
 #footer a:hover {
-  text-decoration: underline; /* Underline on hover for links */
+  text-decoration: underline; /* Underline on hover */
 }
