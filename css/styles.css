@@ -7,37 +7,43 @@ body {
 
 /* Header */
 header {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  padding: 20px;
   background: #222;
   color: white;
+  padding: 20px;
+  text-align: center; /* keep header content centered */
 }
 
-header h1 {
-  margin: 0;
-  font-size: 2rem;
+/* Header content: name + image side by side */
+.header-content {
+  display: inline-flex;       /* allows image and text next to each other */
+  align-items: center;        /* vertically center text and image */
+  justify-content: center;    /* horizontal centering */
+  gap: 15px;                  /* space between image and text */
+}
+
+/* Profile image in header */
+.profile-img {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  object-fit: cover;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.3);
+}
+
+/* Navigation links */
+nav {
+  margin-top: 10px;
 }
 
 nav a {
   color: white;
-  margin-right: 15px;
+  margin: 0 10px;
   text-decoration: none;
   font-weight: 500;
 }
 
 nav a:hover {
   color: #0073e6;
-}
-
-/* Header profile image */
-header img {
-  width: 120px;
-  height: 120px;
-  border-radius: 50%;
-  object-fit: cover;
-  box-shadow: 0 2px 8px rgba(0,0,0,0.3);
 }
 
 /* Sections */
@@ -57,17 +63,10 @@ ul {
   list-style: disc inside;
 }
 
-/* Responsive */
+/* Responsive: stack header content on small screens */
 @media (max-width: 600px) {
-  header {
+  .header-content {
     flex-direction: column;
-    align-items: center;
-    text-align: center;
-  }
-  nav {
-    margin-top: 10px;
-  }
-  header img {
-    margin-top: 15px;
+    gap: 10px;
   }
 }
