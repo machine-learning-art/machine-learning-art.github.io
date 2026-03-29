@@ -23,6 +23,51 @@ section {
   margin: auto;
 }
 
+/* Contact Section */
+#contact {
+  padding: 40px 20px;
+  max-width: 600px;
+  margin: auto;
+}
+
+#contact form {
+  display: flex;
+  flex-direction: column;
+}
+
+#contact input[type="text"],
+#contact input[type="email"],
+#contact textarea {
+  width: 100%;
+  padding: 10px;
+  margin: 5px 0 15px 0;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+#contact button {
+  width: 150px;
+  padding: 10px;
+  background-color: #0073e6;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 1rem;
+}
+
+#contact button:hover {
+  background-color: #005bb5;
+}
+
+#contact p span {
+  font-family: monospace;
+  background: #f5f5f5;
+  padding: 2px 4px;
+  border-radius: 2px;
+}
+
 h2 {
   border-bottom: 2px solid #ddd;
   padding-bottom: 10px;
