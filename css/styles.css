@@ -23,80 +23,56 @@ section {
   margin: auto;
 }
 
-/* Contact Section - compact and left-aligned */
+/* Contact Section */
 #contact {
-  padding: 40px;
-  max-width: 500px;
+  padding: 40px; /* same as other sections */
+  max-width: 800px; /* same max width as other sections */
   margin: auto;
 }
 
 #contact h2 {
-  border-bottom: 2px solid #ddd;
+  border-bottom: 2px solid #ddd; /* same as other section headings */
   padding-bottom: 10px;
   margin-bottom: 20px;
 }
 
-/* Form layout */
 #contact form {
   display: flex;
   flex-direction: column;
-  gap: 5px;           /* small gap between fields */
-  align-items: flex-start; /* left-aligned like other sections */
 }
 
-/* Labels */
 #contact label {
   font-weight: bold;
-  margin: 0;           /* remove extra margin */
-  line-height: 1.2;
-  font-size: 0.95rem;
+  margin-bottom: 5px;
 }
 
-/* Inputs & textarea */
 #contact input[type="text"],
-#contact input[type="email"] {
-  width: 50%;          /* shorter width */
-  max-width: 300px;
-  padding: 6px 8px;    /* compact vertical size */
-  margin: 0;
-  border: 1px solid #ccc;
-  border-radius: 4px;
-  box-sizing: border-box;
-  font-size: 0.95rem;
-  line-height: 1.2;
-}
-
+#contact input[type="email"],
 #contact textarea {
-  width: 70%;          /* slightly wider for messages */
-  max-width: 400px;
-  padding: 6px 8px;
-  margin: 0;
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 10px; /* shorter gap between fields */
   border: 1px solid #ccc;
   border-radius: 4px;
   box-sizing: border-box;
-  font-size: 0.95rem;
-  line-height: 1.2;
-  min-height: 80px;    /* smaller than default */
-  resize: vertical;    /* user can expand if needed */
 }
 
-/* Submit button */
 #contact button {
-  padding: 8px 16px;
+  width: 150px;
+  padding: 10px;
   background-color: #0073e6;
   color: white;
   border: none;
   border-radius: 4px;
   cursor: pointer;
-  font-size: 0.95rem;
-  margin-top: 5px;
+  font-size: 1rem;
+  margin-top: 10px;
 }
 
 #contact button:hover {
   background-color: #005bb5;
 }
 
-/* Optional email display */
 #contact p span {
   font-family: monospace;
   background: #f5f5f5;
