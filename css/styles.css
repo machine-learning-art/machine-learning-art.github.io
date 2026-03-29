@@ -1,54 +1,24 @@
-/* Base styles */
 body {
   font-family: Arial, sans-serif;
   margin: 0;
   line-height: 1.6;
 }
 
-/* Header */
 header {
   background: #222;
   color: white;
   padding: 20px;
-  text-align: center; /* keep header content centered */
-}
-
-/* Header content: name + image side by side */
-.header-content {
-  display: inline-flex;       /* allows image and text next to each other */
-  align-items: center;        /* vertically center text and image */
-  justify-content: center;    /* horizontal centering */
-  gap: 15px;                  /* space between image and text */
-}
-
-/* Profile image in header */
-.profile-img {
-  width: 80px;
-  height: 80px;
-  border-radius: 50%;
-  object-fit: cover;
-  box-shadow: 0 2px 8px rgba(0,0,0,0.3);
-}
-
-/* Navigation links */
-nav {
-  margin-top: 10px;
+  text-align: center;
 }
 
 nav a {
   color: white;
   margin: 0 10px;
   text-decoration: none;
-  font-weight: 500;
 }
 
-nav a:hover {
-  color: #0073e6;
-}
-
-/* Sections */
 section {
-  padding: 40px 20px;
+  padding: 40px;
   max-width: 800px;
   margin: auto;
 }
@@ -56,17 +26,4 @@ section {
 h2 {
   border-bottom: 2px solid #ddd;
   padding-bottom: 10px;
-}
-
-/* Lists */
-ul {
-  list-style: disc inside;
-}
-
-/* Responsive: stack header content on small screens */
-@media (max-width: 600px) {
-  .header-content {
-    flex-direction: column;
-    gap: 10px;
-  }
 }
