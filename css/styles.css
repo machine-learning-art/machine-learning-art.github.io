@@ -127,6 +127,7 @@ section {
 
 .card.expanded .expanded-info {
   display: block;
+  opacity: 1;
 }
 
 /* FEATURED */
