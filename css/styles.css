@@ -23,6 +23,27 @@ section {
   margin: auto;
 }
 
+/* ABOUT SECTION GRID */
+.about-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr; /* two equal columns */
+  gap: 24px;
+  align-items: start;
+  margin-top: 20px;
+}
+
+/* Text column styling */
+.about-text p {
+  font-size: 16px;
+  line-height: 1.8;
+}
+
+/* Image card adjustments */
+.about-image {
+  height: 100%; /* match text height naturally */
+  min-height: 220px;
+}
+
 /* PROJECTS */
 .projects {
   padding: 60px 40px;
