@@ -104,6 +104,12 @@ section {
   opacity: 1;
 }
 
+.card.expanded {
+  grid-column: span 2;
+  grid-row: span 2;
+  transition: all 0.3s ease;
+}
+
 /* FEATURED */
 .featured {
   grid-column: span 2;
