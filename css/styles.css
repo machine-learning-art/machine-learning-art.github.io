@@ -110,6 +110,10 @@ section {
   transition: all 0.3s ease;
 }
 
+.card.expanded .expanded-info {
+  display: block;
+}
+
 /* FEATURED */
 .featured {
   grid-column: span 2;
