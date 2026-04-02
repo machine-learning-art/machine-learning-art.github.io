@@ -128,6 +128,7 @@ section {
 .card.expanded .expanded-info {
   display: block;
   opacity: 1;
+  z-index: 20; /* higher than overlay */
 }
 
 /* FEATURED */
