@@ -89,26 +89,6 @@ section {
   grid-row: span 2;
 }
 
-/* CONTACT */
-.contact {
-  text-align: center;
-  padding: 80px 20px;
-}
- 
-.contact button {
-  padding: 12px 24px;
-  border: none;
-  border-radius: 8px;
-  background: #3b82f6;
-  color: white;
-  font-size: 16px;
-  cursor: pointer;
-}
- 
-.contact button:hover {
-  background: #2563eb;
-}
-
 /* Footer Styling */
 #footer {
   background-color: #222;  /* Dark background */
