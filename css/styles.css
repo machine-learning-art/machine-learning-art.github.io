@@ -30,8 +30,8 @@ section {
 
 .grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
-  grid-auto-rows: 220px; /* force consistent height */
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  grid-auto-rows: 200px; /* force consistent height */
   gap: 24px;
 }
 
