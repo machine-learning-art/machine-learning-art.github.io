@@ -110,6 +110,21 @@ section {
   transition: all 0.3s ease;
 }
 
+/* Expanded info (hidden by default) */
+.expanded-info {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: white;
+  color: black;
+  padding: 20px;
+  overflow: auto;
+  display: none;
+  z-index: 10;
+}
+
 .card.expanded .expanded-info {
   display: block;
 }
