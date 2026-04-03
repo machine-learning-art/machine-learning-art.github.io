@@ -126,9 +126,8 @@ section {
 }
 
 .card.expanded .expanded-info {
-  display: block;
-  opacity: 1;
-  z-index: 20; /* higher than overlay */
+  max-height: 500px;         /* large enough for content */
+  padding: 20px;             /* expand padding smoothly */
 }
 
 /* FEATURED */
