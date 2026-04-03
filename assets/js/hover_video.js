@@ -14,6 +14,9 @@ cards.forEach(card => {
 
   // expand on click
   card.addEventListener('click', () => {
+      // skip expansion if labeled
+    if (card.classList.contains('no-expand')) return;
+    
     card.classList.toggle('expanded');
 
     // pause video if collapsing
