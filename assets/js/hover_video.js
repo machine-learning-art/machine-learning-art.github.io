@@ -22,4 +22,11 @@ cards.forEach(card => {
       video.currentTime = 0;
     }
   });
+
+  cards.forEach(card => {
+  card.addEventListener('click', () => {
+    card.classList.toggle('expanded');
+  });
+});
+  
 });
