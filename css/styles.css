@@ -52,7 +52,7 @@ section {
 .grid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
-  grid-auto-rows: 200px; /* force consistent height */
+  grid-auto-rows: minmax(200px, auto); /* allow card to grow with content */  /*200px; force consistent height */
   gap: 24px;
 }
 
