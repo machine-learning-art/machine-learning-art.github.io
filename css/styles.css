@@ -119,7 +119,7 @@ section {
 }
 
 .card.expanded .expanded-info {
-  max-height: 500px; /* adjust for content length */
+  max-height: none;   /* allow full height */
   padding: 20px;
 }
 
