@@ -64,8 +64,6 @@ section {
   border-radius: 16px;
   cursor: pointer;
   box-shadow: 0 10px 30px rgba(0,0,0,0.3);
-  height: 300px; /* or min-height */
-  width: 100%;   /* will fit grid column */
 }
 
 .card img,
