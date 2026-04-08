@@ -53,6 +53,7 @@ section {
   width: 100%;
   height: 100%;
   object-fit: cover;   /* fills card, crops if needed */
+  object-position: bottom; /* crop from botton */
 }
 
 /* PROJECTS */
