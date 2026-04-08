@@ -121,6 +121,11 @@ section {
   transition: all 0.3s ease;
 }
 
+.card.expanded img,
+.card.expanded video {
+  object-fit: contain; /* shows entire image */
+}
+
 /* Video play icon */
 .play-icon {
   position: absolute;
