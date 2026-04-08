@@ -42,7 +42,15 @@ section {
 .about-image {
   height: 100%; /* match text height naturally */
   min-height: 220px;
-  object-fit: cover;
+  overflow: hidden; /* prevents overflow */
+  display: flex;
+}
+
+.about-image img,
+.about-image video {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;   /* fills card, crops if needed */
 }
 
 /* PROJECTS */
