@@ -44,7 +44,6 @@ section {
   min-height: 220px;
   max-height: 300px;
   overflow: hidden; /* prevents overflow */
-  display: flex;
   position: relative;   /* useful for overlays like play button */
 }
 
@@ -53,7 +52,8 @@ section {
   width: 100%;
   height: 100%;
   object-fit: cover;   /* fills card, crops if needed */
-  object-position: bottom; /* crop from botton */
+  object-position: 50% 30%;   /* better for portraits */
+  display: block;
 }
 
 /* PROJECTS */
