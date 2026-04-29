@@ -174,10 +174,15 @@ section {
   grid-row: span 2;
 }
 
-/* label */
+/* label, custom list, and text */
 .label {
   font-weight: 600;
   color: #374151; /* slightly darker gray */
+}
+
+.meta-list {
+  list-style: none;
+  padding-left: 18px;
 }
 
 /* Footer Styling */
